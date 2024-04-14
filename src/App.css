@@ -1,0 +1,618 @@
+.App {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  justify-content:space-between;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  flex-wrap: wrap;
+}
+
+.logo{
+  font-weight: 800;
+  font-size: 2vw;
+  color: gray;
+  width: 30vw;
+  margin-bottom: -8px;
+}
+
+.menu{
+  display: flex;
+  width: 50vw;
+}
+
+
+.loadScr{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #00358d;
+}
+
+.menuOptions{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2vw; 
+  font-weight: 700;
+  margin: 2%; 
+}
+
+.menuOptions:hover{
+  color: #004ecb;
+}
+
+.bigBox{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.bigBox{
+}
+
+.box1{
+  border : 2px solid rgb(91, 91, 91);
+  border-top-right-radius: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
+
+.divOneText{
+  width: 50%;
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.divOneVideoBox{
+  align-items: flex-end;
+}
+
+.divOneVideo{
+  position: relative;
+  min-width: 200px;
+  width: 40vw;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(17, 13, 36);
+  font-size: 7em;
+  margin-bottom: 0;
+}
+
+.text2{
+  margin-top: 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  font-size: 15vh;
+  color: transparent;
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+.box2{
+  color: antiquewhite;
+  background-color: #00358d;
+  border-top-left-radius: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5%;
+  margin-bottom: 10%;
+}
+
+.box2Img{
+  border-radius: 20px;
+  width: 90%;
+  height: auto;
+}
+
+.subDiv21{
+  flex-direction: column;
+  text-align: left;
+  width: 50%;
+  font-size: 4em;
+  display: flex;
+  height: 50%;
+  font-weight: 500;
+}
+
+.subDiv22{
+  width: 50%;
+}
+
+.subDivText{
+  text-align: left;
+  border-bottom: 2px solid white;
+  padding: 10px;
+}
+
+.subDiv22Text1 {
+  font-size: 2em;
+  font-weight: 300;
+  align-self: flex-start;
+}
+
+.subDiv22Text2{
+  font-size: 1em;
+}
+
+@keyframes move {
+  0% { transform: translateX(-120%); }
+  100% { transform: translateX(120%); }
+}
+
+@keyframes move2 {
+  0% { transform: translateX(120%); }
+  100% { transform: translateX(-120%); }
+}
+
+.marqText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10vh;
+  margin: 0%;
+  animation: move 10s linear infinite;
+}
+.marqText2{
+  font-size: 10vh;
+  margin: 0%;
+  animation: move2 10s linear infinite;
+}
+
+.marqText2:hover,.marqText:hover{
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+  color: transparent;
+}
+
+.locText{
+  margin-right: 70%;
+  position: relative;
+  top : 20px;
+  color:blue;
+  padding: 3px;
+  font-size: 3vw;
+  background-color: rgba(255, 255, 255, 1)}
+
+.bigBox2{
+  border : 1px solid black;
+  margin-bottom: 60px;
+  border-top-right-radius: 20px;
+  padding-left: 25%;
+  right: 20%;
+  position: relative;
+  padding-bottom: 20%;
+}
+
+
+
+.bigBox2Text{
+  margin-top: 15%;
+  margin-right: 5%;
+  font-size: 3.5vw;
+  text-align: left;
+  color: #081a37;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.locBtn{
+  background-color: transparent;
+  border:1px solid #00358d;
+  border-radius: 30px;
+  font-size: medium;
+  padding: 10px;
+  color: #00358d;
+  position: relative;
+}
+
+.marqCountry{
+  background-color: white;
+  position: relative;
+  width: 100%;
+  bottom: 100px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 100px;
+}
+
+.moveBox{
+  display: flex;
+  flex-wrap: wrap;
+  border: #081a37 2px solid;
+  width: 80vw;
+  height: fit-content;
+}
+
+.moveBoxText{
+  font-size: 150%;
+  font-weight: 600;
+  color: blue;
+  width: 45%;
+  height: 20%;
+  border: #081a37 2px solid;
+}
+
+.moveBoxSubText{
+  color: #081a37;
+  width: 45%;
+  text-align: left;
+  border: #081a37 2px solid;
+  order: 3;
+}
+
+
+.disc{
+  width: 10%;
+  order: 99;
+}
+
+.moveBoxImg{
+  order: 2;
+  border: #081a37 solid 2px;
+  width: 30%;
+  margin-left: 20%;
+  height: 100px;
+  background-image: url('https://www.manuport-logistics.com/_next/image?url=%2Fimg%2FsliderFallback%2FCargo-Barging-Business.png&w=768&q=75');
+  border-top-left-radius: 20%;
+  order: 2;
+}
+
+.moveBox2{
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid red;
+  width: 80vw;
+
+}
+
+.footer{
+  background-color: #00358d;
+  width: 100vw;
+  color: gray;
+}
+
+.overlapBox1{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  right: 100px;
+  text-align: left;
+  border-top-right-radius: 15%;
+  overflow: hidden;
+}
+
+.overlapVideo{
+
+}
+
+.overlapBoxText{
+  color: white;
+  display: flex;
+  font-size: 4rem;
+  font-weight: 800;
+  position:absolute;
+  top: 45%;
+  margin-left: 10%;
+  z-index: 100;
+}
+
+.blueOverlay{
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 9, 53, 0.7); /* Semi-transparent blue */
+    
+  }
+
+.overlapBox2{
+  text-align: left;
+  width: 100%;
+  height:100vh;
+  padding: 50px;
+  z-index: 98;
+  bottom: 40vh;
+  position: relative;
+  border-bottom-left-radius: 15%;
+  background-color: #0d0f32;
+  margin-left: 5%;
+}
+
+.overlapBox2Text1{
+  font-size: 8vh;
+  width: 70%;
+  font-weight: 500;
+  color: rgb(86, 86, 84);
+  margin-bottom: 5%;
+}
+
+.overlapBox2Text2{
+  color: aliceblue;
+  width: 60vw;
+  font-size: 3vh;
+  position: relative;
+  left: 30%;
+}
+
+.joinBtn{
+  background-color: transparent;
+  border: 2px solid white;
+  position: relative;
+  left: 30%;
+  top: 5%;
+  color: white;
+  font-size: 0.8em;
+  padding: 2%;
+  border-radius: 30px;
+}
+
+.getInTouch{
+  overflow: hidden;
+  width: 50vw;
+  height: 50vh;
+}
+
+.getInTouchImg{
+
+}
+
+.vacancies{
+  display: flex;
+  max-width: 90%;
+  justify-content: space-between;
+  
+}
+
+.vacText{
+  color: #00358d;
+  font-size: 1em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+}
+
+.vacText2{
+  font-size: 3em;
+  color: #081a37;
+  font-weight: 600;
+  margin: 0%;
+  
+}
+
+.vacBtn{
+  background-color: transparent;
+  color: #00358d;
+  padding: 4%;
+  font-size: 1.2em;
+  border-radius: 30px;
+}
+
+.vac1{
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  margin: 3%;
+  min-width: 200px;
+}
+
+.teamInfo{
+  width: 50vw;
+  
+  height: auto;
+  border-bottom-right-radius: 20px;
+  margin: 0%;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s linear;
+
+}
+
+.teamInfo:hover{
+  transform: skewX(5deg) skewY(-5deg);
+}
+
+.teamImg{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  inset: 0;
+}
+
+.teamText{
+  color: #081a37;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.teamSubText{
+  margin: 3%;
+  color: #00358d;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.apply{
+
+}
+
+.blog{
+  display: flex;
+  flex-direction: row;
+  overflow-x:scroll;
+  width: 80%;
+  margin: 10%;
+}
+
+.blog1{
+  display: flex;
+  flex-wrap: wrap;
+  object-fit: contain;
+  background-color: white;
+  width: 50vw;
+  margin: 10px;
+  border: 2px black solid;
+  flex-shrink: 0;
+  border-top-right-radius: 30px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.blogImg{
+  width: 60vw;
+  height: 50%;
+  margin: 0;
+
+}
+
+.blogTitle{
+  margin: 0%;
+  color: #00358d;
+}
+
+.blogText{
+  margin: 0%;
+}
+
+.footBox{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+
+}
+
+.commo{
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  align-items: flex-start;
+  width: 50%;
+  background-color: #ccd6e8;
+  border-bottom-left-radius: 40px;
+  margin-right: 3%;
+  transform: skewX(0deg) skewY(0deg);
+  transition: transform 0.3s linear;
+}
+
+.commoText{
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  color: #00235d;
+}
+
+.commoText2{
+  margin: 0;
+  font-size: 2rem;
+}
+
+.moveBtn{
+  background-color: transparent;
+  border: rgb(0, 45, 108) 0.5px solid;
+  padding: 5%;
+  font-size: 1rem;
+  color: white;
+  width: fit-content;
+  border-radius: 40px;
+}
+
+.serv{
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  align-items: flex-start;
+  width: 50%;
+  background-color: #00235d;
+  border-top-right-radius: 40px;
+  color: white;
+  transition: transform 0.3s linear;
+
+  }
+
+.serv:hover{
+  transform: skewX(5deg) skewY(-5deg);
+
+}
+
+.servText{
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+}
+
+.servText2{
+  margin: 0;
+  font-size: 2rem;
+}
+
+.servBtn{
+  background-color: transparent;
+  border: white 0.5px solid;
+  padding: 5%;
+  font-size: 1rem;
+  color: white;
+  width: fit-content;
+  border-radius: 40px;
+}
+
+@keyframes skewAni {
+  
+}
+
+.commo:hover {
+  transform: skewX(5deg) skewY(-5deg);
+}
+
+.bgDiv{
+  background-color: #081a37;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  right: 30%;
+  top:90vh;
+  z-index: -1;
+  margin-top: -60vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+  margin-left: 30%;
+}
+
+.blogTex{
+  color: white;
+  font-size: 5vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+}
+
+.blogTex2{
+  font-size: 5vw;
+
+}
