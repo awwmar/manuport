@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/manuport/static/css/main.a946996c.css",
-    "main.js": "/manuport/static/js/main.b6bbef44.js",
-    "static/js/453.361f5870.chunk.js": "/manuport/static/js/453.361f5870.chunk.js",
-    "static/media/logo.svg": "/manuport/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/manuport/index.html",
-    "main.a946996c.css.map": "/manuport/static/css/main.a946996c.css.map",
-    "main.b6bbef44.js.map": "/manuport/static/js/main.b6bbef44.js.map",
-    "453.361f5870.chunk.js.map": "/manuport/static/js/453.361f5870.chunk.js.map"
+    "main.css": "/trionn/static/css/main.f2cedcec.css",
+    "main.js": "/trionn/static/js/main.d07b8db6.js",
+    "static/js/453.361f5870.chunk.js": "/trionn/static/js/453.361f5870.chunk.js",
+    "static/media/img3.jpeg": "/trionn/static/media/img3.d7be5b59d120cc4a08fe.jpeg",
+    "static/media/img1.jpeg": "/trionn/static/media/img1.bd5cb2986045a9382ae0.jpeg",
+    "static/media/img2.jpeg": "/trionn/static/media/img2.0cb2b2c64e3319fc5d87.jpeg",
+    "static/media/logo.svg": "/trionn/static/media/logo.000b26daafa881f6dd4e.svg",
+    "index.html": "/trionn/index.html",
+    "main.f2cedcec.css.map": "/trionn/static/css/main.f2cedcec.css.map",
+    "main.d07b8db6.js.map": "/trionn/static/js/main.d07b8db6.js.map",
+    "453.361f5870.chunk.js.map": "/trionn/static/js/453.361f5870.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a946996c.css",
-    "static/js/main.b6bbef44.js"
+    "static/css/main.f2cedcec.css",
+    "static/js/main.d07b8db6.js"
   ]
 }
